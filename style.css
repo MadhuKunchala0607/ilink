@@ -914,6 +914,7 @@ padding: 10px;
 }
 .drp a{
 color: black;
+
 }
 @media (max-width:500px){
   .hr{
@@ -931,5 +932,15 @@ color: black;
     transition: transform 0.3s ease, background-color 0.3s ease;
     
     }
+    .drp a{
+      color: black;
+      display: flex;
+      flex-direction: column;
+      margin-left: 200px;
+      justify-content: center;
+     gap: 20px;
+      
+      
+      }
   
 }
