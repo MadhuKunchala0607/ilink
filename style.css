@@ -538,7 +538,7 @@ color: #F26121;
     color: white;
   }
 
-@media (max-width:550px){
+@media (max-width:600px){
   .rqst-box{
     transform: translateY(-160%);
   }
