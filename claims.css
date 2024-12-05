@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Nav bar section */
+.navbar-nav {
+    font-family: sans-serif;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2em;
+}
+.navbar{
+  background-color: white !important;
+}
+
+.navbar-nav a:hover {
+    color: rgb(242, 97, 33);
+}
+.hero{
+  width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('assets/images/footer.jpg');
+    background-size: contain;
+    color: white;
+  
+  }
+   h2{
+    font-size: 70px;
+    font-weight: bolder;
+  }
+  .advice{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+  }
+  .display-5{
+    color: #e64a19;
+    font-weight: bold;
+  }
+
+
+  .hr{
+    width: 200px;
+    height: 0.1vh;
+    background-color: black;
+   }
+   .para{
+   
+    font-size: 15px;
+   
+   }
+   .para p{
+    margin-top: 2%;
+    height: 10vh;
+   }
+   .display-5{
+    color: #e64a19;
+    font-weight: bold;
+   }
+.tollfree{
+ 
+    height: 30vh;
+    background-color: black;
+    color: white;
+    border: 1px solid;
+   
+}
+.toll{
+  width: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: red;
+  gap: 4em;
+
+  height: 30vh;
+  width: 100%;
+}
+.title-box{
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title-box h3{
+  color: #e64a19;
+}
+.para-text i{
+  color: #e64a19;
+  font-size: 20px;
+  font-weight: bold;
+}
+.para-text{
+  display: flex;
+  gap: 1em;
+}
+.form {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.col-6 {
+  flex: 0 0 48%;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+}
+
+
+
+
+
+
+
+.link{
+  background-image: url("assets/images/1-1-1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right;
+  
+  
+}
+
+
+/* button section  */
+.btn-custom{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 30px; /* Adjust padding for a larger button */
+  width: 200px; /* Set the desired width */
+  border-radius: 20px; /* Change border radius for rounded corners */
+  text-align: center;
+  font-size: 16px; /* Adjust font size */
+  transition: all 0.3s ease; /* Smooth hover effect */
+  
+}
+.footer-bg {
+    background-image: url('assets/images/footer.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling of the image */
+    position: relative; /* Enables positioning child elements over the image */
+  }
+  
+  .btn-custom:hover {
+    background-color: #e64a19; /* Slightly darker shade on hover */
+    color: #fff;
+    transform: scale(1.05); /* Subtle scaling effect */
+  }
+  
+.footer-btm{
+  background-color: black;
+  color: white;
+}
+.hr-foot{
+  height: 0.1vh;
+  width: 100%;
+  background-color: white;
+}
+.foot-para{
+  
+  font-size: small;
+  text-align: justify;
+}
+.footer-bg ul li {
+ 
+  text-decoration: none;
+  color: white;
+  
+}
+li a{
+  text-decoration: none;
+  color: white;
+}
+li{
+  list-style: none;
+}
+a:hover{
+  color: #e64a19;
+}
+ul li a:hover{
+  color: #e64a19;
+}
+.text-c{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:  space-around;
+gap: 1em;
+ 
+}
+
+.download  i{
+color: #e64a19;
+
+
+}
+.download li{
+  
+  line-height: 40px;
+}
+.download  a{
+  color: black;
+}
+.download a:hover{
+  color: #e64a19;
+}
+.download h1{
+  color: #e64a19;
+  font-weight: bold;
+}
+.download h3{
+  font-weight: bold;
+}
+h1 a{
+  text-decoration: none;
+  color: #e64a19;
+}
+.line{
+  width: 100%;
+  height: 3vh;
+  display: flex;
+  align-items: center;
+  justify-self:center;
+  gap: 1em;
+  
+}
+.para h4{
+  font-weight: bold;
+}
+
+@media (max-width:750px){
+  .line{
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .para{
+   line-height: auto;
+  }
+}
+.line{
+ 
+  padding: 10px;
+  align-items: center;
+}
+.list-group-item i{
+  color: #e64a19;
+}
+
+.drp{
+  min-width: 700px;
+  padding: 10px;
+
+}
+.drp a{
+  color: black;
+}
