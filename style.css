@@ -919,4 +919,17 @@ color: black;
   .hr{
     width: 50%;
   }
+  .card button{
+    position: absolute;
+    margin-top: 80%;
+    padding:  5px;
+    border-radius: 20px;
+    width: 80%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    
+    }
+  
 }
