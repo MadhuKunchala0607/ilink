@@ -337,6 +337,9 @@ color: black;
   height: auto;
   padding: 20px;
 }
+.hr{
+  width: 50%;
+}
 .info{
   height: auto;
   width: 100%;
@@ -911,4 +914,9 @@ padding: 10px;
 }
 .drp a{
 color: black;
+}
+@media (max-width:500px){
+  .hr{
+    width: 50%;
+  }
 }
