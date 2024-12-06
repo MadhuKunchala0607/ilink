@@ -106,4 +106,26 @@ ul li a:hover{
   color: black;
 }
 
+@media (max-width:600px) {
+  .vr{
+    display: none;
 
+
+  }
+
+  .post{
+  display: hidden;
+  width: 100%;
+  height: auto;
+    
+  }
+  .line{
+    width: 100%;
+    height: auto;
+  }
+  .vline{
+    display: none;
+  }
+  
+
+}
