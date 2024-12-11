@@ -219,7 +219,45 @@ button:hover {
   font-size: 16px; /* Adjust font size */
   transition: all 0.3s ease; /* Smooth hover effect */
   
+
 }
+.drp{
+  min-width: 700px;
+  padding: 10px;
+  
+  }
+  .drp a{
+  color: black;
+  
+  }
+  @media (max-width:500px){
+    .hr{
+      width: 50%;
+    }
+    .card button{
+      position: absolute;
+      margin-top: 80%;
+      padding:  5px;
+      border-radius: 20px;
+      width: 80%;
+      background-color: black;
+      color: white;
+      cursor: pointer;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      
+      }
+      .drp a{
+        color: black;
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+        justify-content: center;
+       gap: 20px;
+        
+        
+        }
+    
+  }
 .footer-bg {
     background-image: url('assets/images/footer.jpg'); /* Replace with your image path */
     background-size: cover; /* Ensures the image covers the entire area */

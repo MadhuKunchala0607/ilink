@@ -133,6 +133,43 @@ ul li a:hover{
   
    
 }
+.drp{
+  min-width: 700px;
+  padding: 10px;
+  
+  }
+  .drp a{
+  color: black;
+  
+  }
+  @media (max-width:500px){
+    .hr{
+      width: 50%;
+    }
+    .card button{
+      position: absolute;
+      margin-top: 80%;
+      padding:  5px;
+      border-radius: 20px;
+      width: 80%;
+      background-color: black;
+      color: white;
+      cursor: pointer;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      
+      }
+      .drp a{
+        color: black;
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+        justify-content: center;
+       gap: 20px;
+        
+        
+        }
+    
+  }
 /* Responsive Design for Hero Section */
 @media (max-width: 768px) {
   .hero {
