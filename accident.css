@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Nav bar section */
+.navbar-nav {
+    font-family: sans-serif;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1em;
+
+}
+.navbar{
+  background-color: white !important;
+}
+
+.navbar-nav a:hover {
+    color: rgb(242, 97, 33);
+}
+.footer-bg {
+    background-image: url('assets/images/footer.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling of the image */
+    position: relative; /* Enables positioning child elements over the image */
+  }
+  
+  .btn-custom:hover {
+    background-color: #e64a19; /* Slightly darker shade on hover */
+    color: #fff;
+    transform: scale(1.05); /* Subtle scaling effect */
+  }
+  
+.footer-btm{
+  background-color: black;
+  color: white;
+}
+.hr-foot{
+  height: 0.1vh;
+  width: 100%;
+  background-color: white;
+}
+.foot-para{
+  
+  font-size: small;
+  text-align: justify;
+}
+.footer-bg ul li {
+ 
+  text-decoration: none;
+  color: white;
+  
+}
+li a{
+  text-decoration: none;
+  color: white;
+}
+li{
+  list-style: none;
+}
+a:hover{
+  color: #e64a19;
+}
+ul li a:hover{
+  color: #e64a19;
+}
+
+/* Hero Section Styling */
+.hero {
+  width: 100%;
+  height: 70vh;
+  background-image: 
+      url('assets/images/accident.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  border-top: 3px solid #e64a19;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.hero button {
+  padding: 10px 30px;
+  border-radius: 50px;
+  background-color: #e64a19;
+  height: auto;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero button:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+}
+
+/* Responsive Design for Hero Section */
+@media (max-width: 768px) {
+  .hero {
+      height: 50vh;
+  }
+
+  .hero-content h1 {
+      font-size: 2rem;
+  }
+
+  .hero button {
+      font-size: 0.9rem;
+      padding: 10px 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+      height: 40vh;
+      padding: 10px;
+  }
+
+  .hero-content h1 {
+      font-size: 1.5rem;
+  }
+
+  .hero button {
+      font-size: 0.8rem;
+      padding: 8px 15px;
+  }
+}
+/* Section Styling */
+.sect-2 {
+  text-align: justify;
+  font-size: 18px;
+  margin-top: 30px;
+}
+.sect-2 img{
+    height: 70%;
+}
+
+.sect-2 h3 {
+  color: #e64a19;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.sect-2 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sect-2 li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.sect-2 i {
+  color: #e64a19;
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .sect-2 h3 {
+      font-size: 1.5rem;
+  }
+
+  .sect-2 li {
+      font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .sect-2 h3 {
+      font-size: 1.2rem;
+  }
+
+  .sect-2 li {
+      font-size: 0.9rem;
+  }
+}
+
+
+
+
+/* Toll Section Styling */
+.toll {
+  height: auto; /* Adjust height for flexibility */
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; /* Center-align text for better readability */
+  padding: 20px;
+  font-weight: bold;
+  gap: 1em;
+  font-size: 20px;
+}
+
+.toll h3 {
+  margin: 10px 0;
+}
+
+.toll h3:nth-child(2) {
+  color: #F26121; /* Highlight the toll-free number */
+  font-size: 1.8rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .toll {
+      font-size: 16px; /* Reduce font size for medium screens */
+      gap: 0.8em;
+      padding: 15px;
+  }
+
+  .toll h3:nth-child(2) {
+      font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .toll {
+      font-size: 14px; /* Further reduce font size for smaller screens */
+      padding: 10px;
+      gap: 0.6em;
+  }
+
+  .toll h3:nth-child(2) {
+      font-size: 1.2rem; /* Adjust font size for the toll-free number */
+  }
+}
+
+/* General Container Styling */
+.transport-op, .package {
+  padding: 20px;
+  text-align: justify;
+  font-size: 16px;
+}
+form{
+  
+    padding: 30px;
+}
+
+
+.transport-op h2, 
+.transport-op h2, 
+.package h2 {
+  color: #e64a19;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* List Styling */
+.transport-op ul, 
+.package ul {
+  list-style-type: none;
+  padding: 0;
+}
+.line{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-top: 2%;
+}
+
+.line i{
+    color: #e64a19;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+
+.transport-op ul li i, 
+.package ul li i {
+  color: #e64a19;
+  font-size: 18px;
+}
+.transport-op ul li{
+    text-align: justify;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .transport-op .row {
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  .transport-op .col-6 {
+      width: 100%;
+  }
+
+  .package ul li {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .transport-op, .package {
+      padding: 10px;
+  }
+
+  .transport-op h3, 
+  .transport-op h4, 
+  .package h3 {
+      font-size: 18px;
+  }
+
+  .transport-op ul li, 
+  .package ul li {
+      font-size: 12px;
+  }
+}
+
+.package h3{
+    margin-top: 3%;
+    color: #e64a19;
+}
+.package li{
+    
+    text-align: justify;
+    list-style: disc;
+}
+.choose li{
+    text-align: justify;
+
+}
+/* Choose Section Styling */
+.choose {
+  padding: 40px 20px;
+  color: white;
+  text-align: justify;
+  background-image: linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.6)), 
+  url('assets/images/drive-digger-excavator-1867268\ truck.jpg'); /* Replace with your image path */
+background-size: cover; /* Ensures the image covers the entire section */
+background-repeat: no-repeat; /* Prevents image repetition */
+background-position: center; /* Centers the image */
+padding: 40px 20px; /* Adds spacing for content */
+color: white; /* White text for readability */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.choose h2 {
+  color: #e64a19;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 26px;
+  margin-top: 30px;
+}
+
+/* List Styling */
+.choose ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.choose ul .line {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.choose ul li {
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.choose ul i {
+  color: #e64a19;
+  font-size: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .choose .row {
+      flex-direction: column;
+  }
+
+  .choose .col-5 {
+      margin-bottom: 20px;
+  }
+
+  .choose h2 {
+      font-size: 26px;
+  }
+
+  .choose ul li {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .choose {
+      padding: 20px 10px;
+  }
+
+  .choose h2 {
+      font-size: 18px;
+  }
+
+  .choose ul li {
+      font-size: 12px;
+  }
+}
+.last p{
+    text-align: justify;
+
+}
+.last{
+    padding: 20px;
+}

@@ -403,6 +403,7 @@ color: black;
 
 
 
+
 .process-step {
   text-align: center;
   position: relative;
@@ -474,6 +475,7 @@ color: black;
   .link:nth-child(1){
     background-image: none;
   }
+ 
 }
 .testimonials-section {
   color: #333;
