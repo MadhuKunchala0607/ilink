@@ -512,3 +512,36 @@ justify-content: center;
 .last{
     padding: 20px;
 }
+.rqst-box{
+  position: fixed;
+  right: 0; 
+  top: 50%; 
+  transform: translateY(-200%);
+  width: 250px; 
+  height: 50px;
+  background-color: #e64a19;
+  border: 1px solid black; 
+  text-align: center; 
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   rotate: 90deg; 
+  float: right;
+  margin-left: -70%;
+   
+  }
+  .rqst-box a{
+    text-decoration: none;
+    color: black;
+  
+  }
+  .rqst-box a:hover{
+    color: white;
+  }
+  
+  @media (max-width:600px){
+  .rqst-box{
+    transform: translateY(-160%);
+  }
+  }

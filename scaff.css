@@ -1,0 +1,609 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  /* Nav bar section */
+  .navbar-nav {
+    font-family: sans-serif;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1em;
+  }
+  
+  .navbar {
+    background-color: white !important;
+    border-bottom: 1px solid #e64a19;
+  
+  }
+  
+  .navbar-nav a:hover {
+    color: rgb(242, 97, 33);
+  }
+  
+  i {
+    color: #e64a19;
+  }
+  
+  .blog {
+    margin-top: 10%;
+    height: auto;
+    width: 100%;
+  }
+  
+  .blog h1 {
+    color: #e64a19;
+  }
+  
+  .post i {
+    color: #e64a19;
+  
+  }
+  
+  .line {
+    display: flex;
+    align-items: center;
+  
+    gap: 1em;
+  }
+  
+  .img-section img {
+    height: auto;
+    width: 100%;
+  
+  }
+  
+  .footer-bg {
+    background-image: url('assets/images/footer.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    /* Ensures the image covers the entire area */
+    background-position: center;
+    /* Centers the image */
+    background-repeat: no-repeat;
+    /* Prevents tiling of the image */
+    position: relative;
+    /* Enables positioning child elements over the image */
+  }
+  
+  .btn-custom:hover {
+    background-color: #e64a19;
+    /* Slightly darker shade on hover */
+    color: #fff;
+    transform: scale(1.05);
+    /* Subtle scaling effect */
+  }
+  
+  .footer-btm {
+    background-color: black;
+    color: white;
+  }
+  
+  .hr-foot {
+    height: 0.1vh;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .foot-para {
+  
+    font-size: small;
+    text-align: justify;
+  }
+  
+  .footer-bg ul li {
+  
+    text-decoration: none;
+    color: white;
+  
+  }
+  
+  li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a:hover {
+    color: #e64a19;
+  }
+  
+  ul li a:hover {
+    color: #e64a19;
+  }
+  
+  .hero {
+    height: 70vh;
+    width: 100%;
+    background-image: url('assets/images/New-Project-31-1.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-text {
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+   
+    color: #000;
+  }
+  
+  .hero-text h5 {
+    color: #F26121;
+  
+  }
+  
+  .hero-text h1 {
+  
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  .left-section p {
+    font-size: 1.1rem;
+  }
+  
+  .hero-text button {
+    padding: 10px 20px 10px 20px;
+    border: 2px solid #F26121;
+  
+    border-radius: 25px;
+    width: 30%;
+    background-color: #e64a19;
+    color: white;
+  
+  }
+  
+  .hero-text button:hover {
+    background-color: black;
+  }
+  
+  .hero-text button a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .paras {
+    padding: 100px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .paras h1 h2 {
+    font-size: 10px;
+  }
+  
+  .card-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    height: 70vh;
+  
+  }
+  
+  .exp-card {
+    background-color: white;
+    height: 30vh;
+    width: 300px;
+    box-shadow: 1px 0.2px 3px black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 2em;
+  }
+  
+  .exp-card img {
+    height: 50%;
+  
+  }
+  
+  
+  .process-step {
+    text-align: center;
+    position: relative;
+  }
+  
+  .process-step img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .process-step:nth-child(2) {
+    margin-top: 5%;
+  }
+  
+  .process-step:nth-child(2) {
+    margin-top: 10%;
+  }
+  
+  .step-number {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff5722;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .line-connector {
+    width: 50%;
+    height: 2px;
+    background-color: #007bff;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    z-index: -1;
+  }
+  
+  .process-step:last-child .line-connector {
+    display: none;
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    box-shadow: 1px 0.5px 2px;
+    margin: 12%;
+    padding: 30px;
+    gap: 2em;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  
+  .icon img {
+    height: 70px;
+  }
+  
+  .link:nth-child(1) {
+    background-image: url("assets/images/1-1-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
+  
+  }
+  
+  .link:nth-child(2) {
+    background-image: url("assets/images/1-1-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top left;
+  
+  }
+  
+  .link:nth-child(3) {
+    background-image: url("assets/images/1-1-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
+  
+  
+  @media (max-width:1000px) {
+    .link:nth-child(1) {
+      background-image: none;
+    }
+  
+    .link:nth-child(2) {
+      background-image: none;
+    }
+  
+    .link:nth-child(3) {
+      background-image: none;
+    }
+  
+    .exp-card {
+      display: none;
+    }
+  
+  
+  }
+  
+  .company {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .para {
+    text-align: start;
+    color: red;
+  }
+  
+  form {
+    width: 50%;
+    border: 1px solid;
+    padding: 50px;
+  
+  }
+  
+  input {
+    border: 2px solid;
+  }
+  
+  .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .testimonial-card i {
+    color: #FEC42D;
+  }
+  
+  .testimonial-card p {
+    color: #7F7F7F;
+  }
+  
+  .testimonial-card {
+    box-shadow: 0.7px 0.5px 1.5px 1px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .testi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    /* background-image: url('assets/images/testimonial-one-shape-2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right; */
+    
+  
+  }
+  
+  .par {
+    height: 200px;
+    width: 30%;
+  
+  }
+  
+  .heading {
+  
+    height: 200px;
+    width: 30%;
+  
+  }
+  
+  .row i {
+    margin-right: 10px;
+    color: #F26121;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .expect{
+      
+      height: auto;
+    }
+    .card-container{
+      height: auto;
+    }
+    .line-connector {
+      display: none;
+    }
+    .link:nth-child(1){
+      background-image: none;
+    }
+  }
+  .testimonials-section {
+    color: #333;
+  }
+  .exp-card{
+  
+  margin-top: 40%;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  }
+  
+  .dot{
+  padding: 0px;
+  align-items: center;
+  }
+  @media (max-width:550px){
+  .hero-section{
+    height: auto;
+    width: 100%;
+  }
+  .exp-card{
+    
+    margin-top: 30%;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+   
+  .info{
+    height: auto;
+    width: 100%;
+  }
+  }
+  
+  .testimonial-card {
+    border: none;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .quote-icon {
+    font-size: 30px;
+    color: #007bff;
+  }
+  
+  .rqst-box{
+  position: fixed;
+  right: 0; 
+  top: 50%; 
+  transform: translateY(-200%);
+  width: 250px; 
+  height: 50px;
+  background-color: #e64a19;
+  border: 1px solid black; 
+  text-align: center; 
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   rotate: 90deg; 
+  float: right;
+  margin-left: -70%;
+   
+  }
+  .rqst-box a{
+    text-decoration: none;
+    color: black;
+  
+  }
+  .rqst-box a:hover{
+    color: white;
+  }
+  @media(max-width:1000px){
+    .hero{
+      background-image:url('assets/images/hotel-1-1024x681-hotel.webp');
+     
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: auto;
+    }
+    .hero-text{
+      margin-top: 20%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     color: white;
+     height: auto;
+    }
+    .testi{
+      
+      
+      justify-content: start;
+      gap: 0px;
+    }
+    .heading{
+      width: 100%;
+    }
+    .par{
+      width: 100%;
+    }
+  form{
+    width: 100%;
+  }
+  }
+  .drp{
+    min-width: 700px;
+    padding: 10px;
+    
+    }
+    .drp a{
+    color: black;
+    
+    }
+    @media (max-width:500px){
+      .hr{
+        width: 50%;
+      }
+      .card button{
+        position: absolute;
+        margin-top: 80%;
+        padding:  5px;
+        border-radius: 20px;
+        width: 80%;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+        
+        }
+        .drp a{
+          color: black;
+          display: flex;
+          flex-direction: column;
+          margin-left: 200px;
+          justify-content: center;
+         gap: 20px;
+          
+          
+          }
+      
+    }
+  .par{
+    text-align: justify;
+  }
+  .accordion-body li{
+    list-style: disc;
+  }
+  
+  
+.rqst-box{
+  position: fixed;
+  right: 0; 
+  top: 50%; 
+  transform: translateY(-200%);
+  width: 250px; 
+  height: 50px;
+  background-color: #e64a19;
+  border: 1px solid black; 
+  text-align: center; 
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   rotate: 90deg; 
+  float: right;
+  margin-left: -70%;
+   
+  }
+  .rqst-box a{
+    text-decoration: none;
+    color: black;
+  
+  }
+  .rqst-box a:hover{
+    color: white;
+  }
+  
+  @media (max-width:600px){
+  .rqst-box{
+    transform: translateY(-160%);
+  }
+  }
+
+  

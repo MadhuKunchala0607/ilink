@@ -177,13 +177,13 @@ border-bottom-right-radius: 12px; */
 font-size: 1rem;
 text-align: center;
 width: 100%;
-margin-top: auto; /* Pushes the CTA to the bottom */
+margin-top: auto; 
 }
 .rqst-btn{
 position: fixed;
 height: 8vh;
 width: 200px;
-background-color: #F26121;
+background-color: rgb(242, 97, 33);
 padding: 5px 10px 10px;
 float: right;
 margin-right: -96%;

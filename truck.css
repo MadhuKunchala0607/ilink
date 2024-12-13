@@ -286,6 +286,31 @@ ul li a:hover{
   color: #e64a19;
   font-size: 18px;
 }
+.rqst-btn{
+  position: fixed;
+  height: 8vh;
+  width: 200px;
+  background-color: rgb(242, 97, 33);
+  padding: 5px 10px 10px;
+  float: right;
+  margin-right: -96%;
+  z-index: 10;
+  rotate: 90deg;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: black;
+  font-weight: bold;
+  
+  }
+  .rqst-btn a{
+  text-decoration: none;
+  color: white;
+  }
+  .rqst-btn a:hover{
+  color:white;
+  }
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -452,3 +477,37 @@ justify-content: center;
       font-size: 12px;
   }
 }
+
+.rqst-box{
+  position: fixed;
+  right: 0; 
+  top: 50%; 
+  transform: translateY(-200%);
+  width: 250px; 
+  height: 50px;
+  background-color: #e64a19;
+  border: 1px solid black; 
+  text-align: center; 
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   rotate: 90deg; 
+  float: right;
+  margin-left: -70%;
+   
+  }
+  .rqst-box a{
+    text-decoration: none;
+    color: black;
+  
+  }
+  .rqst-box a:hover{
+    color: white;
+  }
+  
+  @media (max-width:600px){
+  .rqst-box{
+    transform: translateY(-160%);
+  }
+  }
