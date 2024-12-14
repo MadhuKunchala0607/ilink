@@ -392,7 +392,7 @@ form{
   color: white;
   text-align: justify;
   background-image: linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.6)), 
-  url('assets/images/drive-digger-excavator-1867268\ truck.jpg'); /* Replace with your image path */
+  url('assets/images/drive-digger-excavator-1867268 truck.jpg'); /* Replace with your image path */
 background-size: cover; /* Ensures the image covers the entire section */
 background-repeat: no-repeat; /* Prevents image repetition */
 background-position: center; /* Centers the image */

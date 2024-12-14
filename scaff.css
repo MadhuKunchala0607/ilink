@@ -605,5 +605,23 @@
     transform: translateY(-160%);
   }
   }
-
+  @media(max-width:1000px){
+    .hero{
+      background-image:url('assets/images/Scaffolding-Insurance-1-1024x677.webp');
+     
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: auto;
+    }
+    .hero-text{
+      margin-top: 20%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     color: white;
+     height: auto;
+    }
+  }
   
