@@ -190,7 +190,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    height: 70vh;
+    height: auto;
   
   }
   
@@ -598,6 +598,9 @@
   }
   .rqst-box a:hover{
     color: white;
+  }
+  p{
+    text-align: justify;
   }
   
   @media (max-width:600px){
