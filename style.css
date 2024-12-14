@@ -748,12 +748,19 @@ font-size: 16px; /* Adjust font size */
 transition: all 0.3s ease; /* Smooth hover effect */
 
 }
+.btn-custom a{
+  color: white;
+  text-decoration: none;
+  
+}
+
 
 .btn-custom:hover {
-background-color: #e64a19; /* Slightly darker shade on hover */
+
 color: #fff;
 transform: scale(1.05); /* Subtle scaling effect */
 }
+
 
 .free-q{
 height: 100vh;
@@ -946,4 +953,12 @@ color: black;
       
       }
   
+}
+.card a{
+  text-decoration: none;
+  color: white;
+
+}
+.btn-custom a :hover{
+  color:white;
 }
