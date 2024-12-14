@@ -694,3 +694,13 @@
     color: #fff;
     transform: scale(1.05); /* Subtle scaling effect */
     }
+    @media (max-width:1400px){
+      .card-container{
+      
+       height: auto;
+       flex-wrap: wrap;
+      }
+      .exp-card{
+       height: 20vh;
+      }
+     }

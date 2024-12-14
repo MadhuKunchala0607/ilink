@@ -210,7 +210,7 @@ ul li a:hover {
 }
 
 .exp-card img {
-  height: 50%;
+  height: 30%;
 
 }
 
@@ -319,9 +319,7 @@ ul li a:hover {
     background-image: none;
   }
 
-  .exp-card {
-    display: none;
-  }
+ 
 
 
 }
@@ -562,5 +560,16 @@ form{
 }
 .accordion-body li{
   list-style: disc;
+}
+
+@media (max-width:1400px){
+ .card-container{
+ 
+  height: auto;
+  flex-wrap: wrap;
+ }
+ .exp-card{
+  height: 20vh;
+ }
 }
 

@@ -511,3 +511,13 @@ justify-content: center;
     transform: translateY(-160%);
   }
   }
+  @media (max-width:1400px){
+    .card-container{
+    
+     height: auto;
+     flex-wrap: wrap;
+    }
+    .exp-card{
+     height: 20vh;
+    }
+   }

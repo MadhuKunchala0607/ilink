@@ -494,3 +494,13 @@ justify-content: center;
 .last{
     padding: 20px;
 }
+@media (max-width:1400px){
+  .card-container{
+  
+   height: auto;
+   flex-wrap: wrap;
+  }
+  .exp-card{
+   height: 20vh;
+  }
+ }
