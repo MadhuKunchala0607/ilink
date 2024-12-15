@@ -926,7 +926,7 @@ padding: 10px;
 color: black;
 
 }
-@media (max-width:500px){
+@media (max-width:600px){
   .hr{
     width: 50%;
   }
